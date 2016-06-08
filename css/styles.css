@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: #ecf0f1; /* Cloud Colour */
+}
+
+.top-navbar {
+	position: fixed; /* Always at the top */
+	width: 100%; /* whole screen wide */
+	height: 2em; /* 2 letters high */
+	left: 0; /* At the top left */
+	top: 0;
+	line-height: 2em; /* put the text inside in the middle */
+	display: inline; /* stuff inside goes across the line, not down the page */
+	background: rgba(41, 41, 61, 60); /* blue/black background */
+}
+
+.top-navbar :first-child {
+	margin-left: 10%; /* Links indented a bit */
+}
+
+.top-navbar > a { 
+	font-family: sans-serif; 
+	text-decoration:none; /* don't underline the links */
+	margin-left: 2.5%; /* keep the links away from eachother a bit */
+	color: #FFFFFF; /* white */
+} 
